@@ -20,13 +20,20 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `gold`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
         </Link>
       </h1>
+      <h2 className='titleContent'>University of Washington | Computational Mathmatics Graduate | Data Science Enthusiast</h2>
+        <a href="https://www.linkedin.com/in/ginoveva/" target="_blank">
+          <i class="fab fa-linkedin"></i> 
+        </a>
+        <Link to="/page-2/">
+          <i class="fas fa-envelope"></i>
+        </Link>
     </div>
   </header>
 )
